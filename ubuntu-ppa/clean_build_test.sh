@@ -28,4 +28,4 @@ cd "$SRC_DIR"
     dpkg-buildpackage --build=source
 cd ..
 
-sudo pbuilder build --distribution $DISTR --architecture amd64 --basetgz /var/cache/pbuilder/${DISTR}-amd64-base.tgz zeal_0.6.1-3ppa1~xenial1.dsc
+sudo pbuilder build --distribution $DISTR --architecture amd64 --basetgz /var/cache/pbuilder/${DISTR}-amd64-base.tgz zeal_0.6.1-4ppa1~xenial1.dsc
