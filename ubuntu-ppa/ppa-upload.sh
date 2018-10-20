@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Ubuntu distributions
-DISTRS=(bionic cosmic)
+DISTRS=(xenial)
 PPA="zeal-developers/ppa"
 
 function failure {
@@ -44,7 +44,7 @@ do
     fi
     cd ..
 
-    dput "ppa:$PPA" "zeal_$ZEAL_VER-1ppa1~${DISTR}1_source.changes"
+    dput "ppa:$PPA" "zeal_$ZEAL_VER-3ppa1~${DISTR}1_source.changes"
 
     rm -rf "$SRC_DIR"
 

@@ -2,8 +2,8 @@ Source: zeal
 Maintainer: Simon Epskamp <apt@simonsimon.nl>
 Section: utils
 Priority: optional
-Build-Depends: debhelper (>= 11),
-               asciidoc-base,
+Build-Depends: debhelper (>= 9),
+               asciidoc,
                cmake (>= 3.5.1),
                extra-cmake-modules,
                libappindicator-dev,
